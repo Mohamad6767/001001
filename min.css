@@ -1,0 +1,74 @@
+.masdiv {
+    width: 100%;
+    background-color: burlywood;  /* background کل منو */
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;  /* برای positioning submenu */
+    top: 0;
+    display: flex;  /* به جای block + float، flex برای افقی کردن */
+    justify-content: flex-start;  /* حالا کار می‌کنه! لینک‌ها از چپ */
+    overflow: visible;  /* hidden رو به visible تغییر دادم تا submenu بیرون بیاد */
+}
+
+li {
+    margin: 0 20px;  /* margin افقی برای فاصله */
+    /* width/height رو حذف کردم – auto پیش‌فرض */
+    line-height: 1.2;  /* ارتفاع طبیعی متن */
+    cursor: pointer;
+    text-align: center;
+    position: relative;  /* برای positioning submenu داخل li */
+    height: 50px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    padding: 15px 15px;  /* padding کم – لینک‌ها متوسط اندازه */
+    display: block;  /* برای کلیک‌پذیر کردن کل فضا */
+}
+
+li a:hover {
+    background-color: rgb(223, 162, 83);
+}
+
+/* Submenu مخفی پیش‌فرض */
+li ul {
+    display: none;  /* مخفی – کلید dropdown */
+    list-style-type: none;
+    margin:  0;
+    padding: 0;
+    margin-left: -20px;
+    position: absolute;  /* زیر li ظاهر می‌شه */
+    top: 100%;  /* دقیقاً زیر li */
+    left: 0;
+    background-color: burlywood;  /* background برای submenu */
+    width: 100px;  /* عرض ثابت برای submenu */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.9);  /* سایه برای زیبایی */
+}
+
+/* نمایش submenu روی hover */
+li:hover > ul {
+    display: block;  /* نمایش می‌شه */
+}
+
+/* استایل برای li‌های داخل submenu */
+li ul li {
+    float: none;  /* submenu عمودی – بدون float */
+    margin: 0;
+    width: 100%;
+}
+
+li ul li a {
+    padding: 10px;  /* پدینگ کمتر برای submenu */
+    border-bottom: 1px solid #ccc;  /* خط جداکننده */
+}
+
+li ul li a:hover {
+    background-color: rgb(223, 162, 83);
+}

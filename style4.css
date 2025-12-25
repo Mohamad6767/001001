@@ -1,0 +1,41 @@
+@charset "utf-8";
+div {
+	font-size: 20px;
+	color: black;
+	text-align-last: center;
+	height: 30px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+h1 {
+	background-color: antiquewhite;
+	background-position: center;
+	height: 125px;
+	width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+	border: 5px solid #00F3FF;
+	border-bottom-color: red;
+	border-left-color: yellow;
+	border-right-color: #C50E0E;
+	
+}
+tr {
+	color: #2A201D;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	border-bottom: inset;
+	border: 4px rgb(9, 8, 8) solid;
+	background-color: #fcf9f8;
+	border-radius: 5px;
+}
+td {
+	border-bottom: inset;
+	border-radius: 2px;
+}
+tr :hover{
+	border-radius: 4px;
+	background-color: #00F3FF;
+	transition: all 0.2s;
+	padding: 4px;
+	
+    
+}

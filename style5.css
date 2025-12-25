@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+.gdiv{
+    border: 6px solid #FFF3F3;
+	padding: 15px;
+    margin-right: 15px;
+    float:left;
+	margin: 15px;
+}
+.gdiv:hover{
+	border: 1px solid #791C1C;
+	border-radius: 20px;
+	
+}
+
+.pdiv{
+    text-align: center;
+	font-style: oblique;
+	font-size: 18px;
+}
+

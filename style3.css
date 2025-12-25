@@ -1,0 +1,83 @@
+@charset "utf-8";
+header , footer {
+	height: 40px;
+	width: 50%;
+	font-size: 25px;
+	margin: 0 auto;
+	float: left;
+}
+header {
+	background-color: red;
+	color: blue;
+
+
+}
+footer {
+	background-color: blue;
+	color: red;
+	
+
+}
+p {
+	font-size: 50px;
+	height: 40px;
+	clear: both;
+	
+}
+aside {
+	width: 250px;
+	height: 32px;
+	margin: 0 auto;
+	background-color: white;
+	font-size: 25px;
+	
+}
+div {
+	text-align: center;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	background: fixed;
+
+}
+.color {
+	background-color: #42FF00;
+	font-size: 25px;
+	width: 250px;
+	height: 40px;
+	margin: 0 auto;
+}
+.color2 {
+	background-color: red;
+	font-size: 25px;
+	width: 250px;
+	height: 40px;
+	margin: 0 auto;
+}
+.franch {
+	background-color: blue;
+	width: 250px;
+	height: 40px;
+	margin: 0 auto;
+}
+.franch2 {
+	background-color: red;
+	width: 250px;
+	height: 40px;
+	margin: 0 auto;
+	
+}
+
+img {
+	margin: 50px;
+}
+.td {
+	width: 800px;
+	height: 340px;
+
+
+}
+body {
+	background-repeat: no-repeat;
+	background-image: url("../../Free Powerpoint Background11-Ghalamo (5).jpg");
+	background-size: 900px 400px;
+
+}
